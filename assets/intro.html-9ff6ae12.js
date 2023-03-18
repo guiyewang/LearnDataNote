@@ -1,0 +1,1 @@
+import{_ as e,Y as t,Z as o,$ as n}from"./framework-d651fda7.js";const _={},c=n("p",null,"世上只有一种英雄主义，就是在认清生活真相之后依然热爱生活",-1),s=[c];function r(a,l){return t(),o("div",null,s)}const d=e(_,[["render",r],["__file","intro.html.vue"]]);export{d as default};
