@@ -6,7 +6,7 @@ icon: home
 title: GuiYe
 #heroImage: /logo.svg
 heroText: GuiYe
-tagline: 盛年不重来，一日难再晨
+tagline: 世上只有一种英雄主义，就是在认清生活真相之后依然热爱生活
 bgImage: https://guiyewang.github.io/Images/model/bolgTilte.jpg
 heroFullScreen: false
 #projects:
