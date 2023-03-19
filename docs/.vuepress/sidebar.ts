@@ -8,7 +8,7 @@ export default sidebar([
   //{ text: "读书笔记", icon: "read", link: "https://newzone.top/reading/" },
   // 指定显示页面
   {
-    text: "🧰 应用手册",
+    text: "应用手册",
     icon: "",
     prefix: "/apps/",
     link: "",
@@ -30,7 +30,7 @@ export default sidebar([
     ],
   },
   {
-    text: "🌐 页面开发",
+    text: "页面开发",
     icon: "",
     prefix: "/web/",
     link: "",
@@ -38,7 +38,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🏗️ 网站部署",
+    text: "网站部署",
     icon: "",
     prefix: "/deploy/",
     link: "",
@@ -46,7 +46,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🚀 代码学习",
+    text: "代码学习",
     icon: "",
     prefix: "/code/",
     link: "",
@@ -68,7 +68,7 @@ export default sidebar([
     ],
   },
   {
-    text: "🐋 Linux 服务",
+    text: "Linux 服务",
     icon: "",
     prefix: "/services/",
     link: "",
@@ -76,7 +76,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🪟 系统问题",
+    text: "系统问题",
     icon: "",
     prefix: "/windows/",
     link: "",
@@ -84,7 +84,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "🛖 生活记录",
+    text: "生活记录",
     icon: "",
     prefix: "/family/",
     link: "",
