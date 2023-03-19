@@ -89,23 +89,7 @@ export default sidebar([
     prefix: "/family/",
     link: "",
     collapsible: true,
-    children: [
-      {
-        prefix: "/2023/",
-        text: "Basic",
-        icon: "emmet",
-        collapsible: true,
-        children: [
-          {
-            prefix: "/03/",
-            text: "Basic",
-            icon: "emmet",
-            collapsible: true,
-            children:"structure",
-          }
-        ],
-      },
-    ]
+    children: "structure",
   },
   {
     text: "博客文章",
