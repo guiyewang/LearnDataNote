@@ -1,7 +1,6 @@
 ---
 article: false
 title: 开始创建bolg
-icon: free
 order: 0
 date: 2023-03-19
 ---
