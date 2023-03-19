@@ -14,7 +14,7 @@ export default defineUserConfig({
   title: "归叶-笔记",
   // 网站描述
   description:
-    "开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。",
+    "记录生活，勇敢面对",
 
   // 网站路径默认为主域名。如果网站部署在子路径下，比如 xxx.com/yyy，那么 base 应该被设置为 "/yyy/"
   base: "/",
