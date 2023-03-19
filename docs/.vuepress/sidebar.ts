@@ -90,14 +90,12 @@ export default sidebar([
     link: "",
     collapsible: true,
     children: [
-      "structure",
       {
         prefix: "/2023/",
         text: "Basic",
         icon: "emmet",
         collapsible: true,
         children: [
-          "structure",
           {
             prefix: "/03/",
             text: "Basic",
