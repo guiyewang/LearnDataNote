@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>记录生活，勇敢面对</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 19 Mar 2023 13:22:05 GMT</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2023 13:22:05 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2023 07:26:09 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2023 07:26:09 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by 归叶</copyright>
@@ -21,6 +21,58 @@
     <category>系统</category>
     <category>网络</category>
     <category>服务器</category>
+    <item>
+      <title>安装</title>
+      <link>https://newzone.top/code/%E6%95%B0%E6%8D%AE%E5%BA%93/PostgreSQL/%E5%AE%89%E8%A3%85.html</link>
+      <guid>https://newzone.top/code/%E6%95%B0%E6%8D%AE%E5%BA%93/PostgreSQL/%E5%AE%89%E8%A3%85.html</guid>
+      <source url="https://newzone.top/rss.xml">安装</source>
+      <description>安装 docker安装 查询postgresql镜像 docker search postgres 查询结果</description>
+      <pubDate>Mon, 20 Mar 2023 13:37:53 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 安装</h1>
+<h2> docker安装</h2>
+<ol>
+<li>查询postgresql镜像</li>
+</ol>
+<div class="language-doc line-numbers-mode" data-ext="doc"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://pcsdata.baidu.com/thumbnail/d5e27ccd3i7f1ee0ac7e41dc52ca59c1?fid=2519193222-16051585-823073532458912&amp;rt=pr&amp;sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Zhd2SeugR7He7v4MF%2FTkORLe9%2F8%3D&amp;expires=48h&amp;chkv=0&amp;chkbd=0&amp;chkpc=&amp;dp-logid=8739909908731115863&amp;dp-callid=0&amp;time=1679288400&amp;bus_no=26&amp;size=c1600_u1600&amp;quality=100&amp;vuk=-&amp;ft=video" alt="查询结果" tabindex="0" loading="lazy"><figcaption>查询结果</figcaption></figure>
+<blockquote>
+<p>NAME         --镜像名称<br>
+DESCRIPTION    --镜像描述<br>
+STARS          --标星数<br>
+OFFICIAL       --官方的<br>
+AUTOMATED      -- 自动化</p>
+</blockquote>
+<ol start="2">
+<li>拉取文件镜像</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="3">
+<li>制作容器</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>run ：创建并运行一个容器；<br>
+–name ：指定容器名称。（容器名称 自己设置）<br>
+-e POSTGRES_PASSWORD=password，设置环境变量，指定数据库的登录口令为password（password 自己设置）<br>
+-p ：指定宿主机和 Docker 容器端口映射，冒号前为宿主机端口号，另一个是容器端口号。（Docker的容器默认情况下只能由本地主机访问，即A主机上的容器不能被B主机访问，所以要做端口映射）（端口号 自己设置）<br>
+-v 冒号":"前面的目录是宿主机目录，后面的目录是容器内目录<br>
+-d postgres：指定使用postgres作为镜像</p>
+</blockquote>
+<ol start="4">
+<li>进入容器创建角色</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="5">
+<li>切换用户</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="6">
+<li>创建sonar用户</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="7">
+<li>创建sonar数据库</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="8">
+<li>查看数据库</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://pcsdata.baidu.com/thumbnail/d5e27ccd3i7f1ee0ac7e41dc52ca59c1?fid=2519193222-16051585-823073532458912&amp;rt=pr&amp;sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-Zhd2SeugR7He7v4MF%2FTkORLe9%2F8%3D&amp;expires=48h&amp;chkv=0&amp;chkbd=0&amp;chkpc=&amp;dp-logid=8739909908731115863&amp;dp-callid=0&amp;time=1679288400&amp;bus_no=26&amp;size=c1600_u1600&amp;quality=100&amp;vuk=-&amp;ft=video" type="image/"/>
+    </item>
     <item>
       <title>电脑上实现微信双开，无需网页版或第三方软件</title>
       <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
@@ -349,42 +401,6 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
 <p>第三次测试使用阿里云 DNS，分配杭州电信，网站正常</p>
 <p>后面两次虽然都能打开网站，但没有一个分配在上海电信，这种加速又能快多少呢？</p>
 <p>在网站<strong>配置足够、流量不大（日均访客 1000 以内）</strong> 时，不建议使用全站 CDN，这只会拖累访问体验。小网站只适合将图片部署在 CDN。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>雇个机器人帮你干活</title>
-      <link>https://newzone.top/posts/2018-01-31-hire_a_robot.html</link>
-      <guid>https://newzone.top/posts/2018-01-31-hire_a_robot.html</guid>
-      <source url="https://newzone.top/rss.xml">雇个机器人帮你干活</source>
-      <description>机器人会取代你工作！ 计算云会取代你工作！ AI 会取代你的工作！ 我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。 作为懒人、宅男，等不及了怎么办？ 既然还没被取代，那就雇个机器人帮你干活！ 我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</description>
-      <category>自动化</category>
-      <pubDate>Wed, 31 Jan 2018 22:51:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>机器人会取代你工作！
-计算云会取代你工作！
-AI 会取代你的工作！</p>
-</blockquote>
-<p>我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。</p>
-<p>作为懒人、宅男，等不及了怎么办？</p>
-<p>既然还没被取代，那就<strong>雇个机器人帮你干活</strong>！</p>
-<p>我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</p>
-<blockquote>
-<p>RSS(Really Simple Syndication) 是一种描述和同步网站内容的格式，是使用最广泛的 XML 应用。简易信息聚合（也叫聚合内容）是一种 RSS 基于 XML 标准，在互联网上被广泛采用的内容包装和投递协议。</p>
-</blockquote>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 增加 <code>Alfred</code> 搜索</label></li>
-</ul>
-<p><strong>直到遇到了我的第一个机器人雇员 <a href="https://github.com/huginn/huginn" target="_blank" rel="noopener noreferrer">Huginn</a></strong></p>
-<blockquote>
-<p>Huginn 是一个可以创建为你在线执行自动化任务的系统。Huginn 可以读取网页，监测事件并且执行符合你需求的动作。Huginn 通过 agents 创建并执行任务（事件流）。你可以将它看作是一个运行在你自己服务器上的 IFTTT 或 Zapier。</p>
-</blockquote>
-<p>Huginn 帮我将所有信息聚合成 RSS，24 小时帮我获取我要的内容。</p>
-<ul>
-<li><a href="http://news.163.com/rank" target="_blank" rel="noopener noreferrer">网易热门新闻</a>：抓取网易顶贴最多的 100 条新闻</li>
-<li><a href="http://top.baidu.com/buzz?b=1" target="_blank" rel="noopener noreferrer">百度实时热点</a>：实时更新每天的百度热点</li>
-<li><a href="https://www.guokr.com/" target="_blank" rel="noopener noreferrer">果壳网</a>：果壳首页推荐，官方更新速度较慢，刚好可以了解些奇思妙想</li>
-<li>工作类：梅花、SocialBeta、数英网、艾瑞网</li>
-</ul>
 ]]></content:encoded>
     </item>
   </channel>
