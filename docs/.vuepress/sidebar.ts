@@ -51,21 +51,7 @@ export default sidebar([
     prefix: "/code/",
     link: "",
     collapsible: true,
-    children: [
-      "README.md",
-      {
-        text: "Basic",
-        icon: "emmet",
-        collapsible: true,
-        children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md"],
-      },
-      {
-        text: "FrondEnd",
-        icon: "app",
-        collapsible: true,
-        children: ["Vue.md", "HTML.md", "JavaScript.md", "Python.md"],
-      },
-    ],
+    children: "structure",
   },
   {
     text: "Linux 服务",
