@@ -21,7 +21,7 @@ docker images
 
 3. 创建容器
 ```
-docker run -p 3306:3306 --name mysql -v /usr/local/docker/mysql/conf:/etc/mysql/conf.d -v /usr/local/docker/mysql/logs:/var/log/mysql -v //usr/local/docker/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
+docker run -p 3306:3306 --name mysql -v /usr/local/docker/Mysql/conf:/etc/mysql/conf.d -v /usr/local/docker/Mysql/logs:/var/log/mysql -v //usr/local/docker/Mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=159357 -d mysql
 ```
 
 > error   
@@ -40,7 +40,7 @@ mysql -uroot -proot
 use mysql;   
 -- 这条命令执行完可能会报错，但不用管它
 //允许root从任何主机连接到mysql服务器,并使用你设置的密码连接
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '设置你的连接数据库密码' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '159357' WITH GRANT OPTION;
 
 //立即执行授权命令
 flush privileges;
@@ -49,3 +49,12 @@ flush privileges;
 SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.user;
 
 ```
+
+```
+Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+
+1. 进入Mysql
+2. mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+
+```
+
