@@ -74,16 +74,16 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
+      GitHub: "https://github.com/guiyewang",
+      Zhihu: "https://www.zhihu.com/",
       '少数派': [
-        "https://sspai.com/u/zqj05i4v/posts",
+        "https://sspai.com/u/egb6b7iv/updates",
         path.resolve(__dirname, "icons/sspai.svg"),
       ],
-      Wechat: "https://tc.seoipo.com/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "https://newzone.top/rss.xml",
+      //Wechat: "https://tc.seoipo.com/wechat.svg",
+      Email: "migu0258@gmail.com",
+      //Discord: "https://discord.gg/PZTQfJ4GjX",
+      //RSS: "https://newzone.top/rss.xml",
     },
   },
   // 开发模式下是否启动热更新，显示所有更改并重新渲染
