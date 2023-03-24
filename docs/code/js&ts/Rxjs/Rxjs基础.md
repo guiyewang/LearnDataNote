@@ -89,3 +89,27 @@ Observeable 是观察者模式中的被观察者，它维护一段执行函数�
 |执行次数	|多次调用 subscribe 函数会执行多次	|只有第一次执行，后续都是取值|
 |流程控制	|相较于 Promise 有更为全面的操作符	|提供串行、并行的函数|
 |错误处理	|subscribe 函数捕获错误	|.catch 捕获|
+总的来说，Promise 可读性更优，Observable 从使用场景更为全面。
+### 两者的相互转换
+在既使用了 RxJS 又引用了用 Promise 封装的库时，两者相互转换是容易碰到的问题，RxJS 提供了两者转换的函数。
+### Promise 转 Observable
+from 或 fromPromise（弃用） 操作符
+```
+const observable$ = from(fetch('http://xxx.com/'));
+```
+Observable 转 Promise
+```
+const promise = of(42).toPromise();
+const errorPromise = throw(new Error('woops')).toPromise();
+errorPromise.catch(err=> console.error);
+```
+
+### Subscriber/Observer
+Subscriber/Observer 是观察者模式中的观察者/消费者，它用来消费/执行 Observable 创建的函数。
+### 核心能力
+
+- next （传值）
+- error （错误处理）
+- complete （完成/终止）
+
+![](https://pic1.zhimg.com/80/v2-f92cfbc57046528faabf6fb0de7c9e90_720w.webp)
