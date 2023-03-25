@@ -54,6 +54,14 @@ export default sidebar([
     children: "structure",
   },
   {
+    text: "学习",
+    icon: "",
+    prefix: "/study/",
+    link: "",
+    collapsible: true,
+    children: "structure",
+  },
+  {
     text: "Linux 服务",
     icon: "",
     prefix: "/services/",
