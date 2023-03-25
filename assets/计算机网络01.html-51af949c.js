@@ -1,0 +1,1 @@
+import{_ as t,Y as a,Z as _,$ as e,a0 as c}from"./framework-d651fda7.js";const r={},s=e("h1",{id:"概念",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#概念","aria-hidden":"true"},"#"),c(" 概念")],-1),o=[s];function n(d,i){return a(),_("div",null,o)}const l=t(r,[["render",n],["__file","计算机网络01.html.vue"]]);export{l as default};
